@@ -1,0 +1,12 @@
+# Real-Time Audio Streaming — Setup & Usage
+# ==========================================
+
+# ── Python dependencies ────────────────────────
+# Install with:  pip install -r requirements.txt
+fastrtc>=0.0.24
+fastapi>=0.111
+uvicorn[standard]>=0.29
+numpy>=1.26
+
+# Optional — higher-quality resampling
+# scipy>=1.13

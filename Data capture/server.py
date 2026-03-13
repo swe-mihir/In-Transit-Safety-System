@@ -30,7 +30,7 @@ from fastrtc import Stream, ReplyOnPause
 
 PLAYBACK_ENABLED = True 
 SAVE_WAV_ENABLED = True
-WAV_OUTPUT_FILE  = "recorded_audio.wav"
+WAV_OUTPUT_FILE  = "Data capture//recorded_audio.wav"
 TARGET_SR        = 16_000
 
 # ---------------------------------------------------------------------------
@@ -201,7 +201,7 @@ if __name__ == "__main__":
 
     # ── SSL cert check ────────────────────────────────────────────────────
     import os
-    cert_file, key_file = "cert.pem", "key.pem"
+    cert_file, key_file = "Data capture//cert.pem", "Data capture//key.pem"
     if not (os.path.exists(cert_file) and os.path.exists(key_file)):
         print("\n  ERROR: cert.pem / key.pem not found.")
         print("  Run:  python generate_cert.py\n")

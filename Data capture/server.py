@@ -28,7 +28,7 @@ from fastrtc import Stream, ReplyOnPause
 # Configuration
 # ---------------------------------------------------------------------------
 
-PLAYBACK_ENABLED = True 
+PLAYBACK_ENABLED = False 
 SAVE_WAV_ENABLED = True
 WAV_OUTPUT_FILE  = "Data capture//recorded_audio.wav"
 TARGET_SR        = 16_000
